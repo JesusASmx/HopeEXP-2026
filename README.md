@@ -25,16 +25,16 @@ MOREOVER, multitasking was a blatant disaster: I whitnessed amused how Qwen 3.5 
 
 #### Tech details:
 **For RoBERTa:**
--I used the XML version of the model, which supports multilanguage.
--No quantization was required.
--Batch size was 16.
--Other hyperparameters are referred on the paper, along with the learning curves.
+- I used the XML version of the model, which supports multilanguage.
+- No quantization was required.
+- Batch size was 16.
+- Other hyperparameters are referred on the paper, along with the learning curves.
 
 **For Qwen:**
--I used the Unsloth implementation of the model, 4B version.
--I used 4-bit quantization.
--LowRank was also obviously involved. I freezed all "hidden layers" but the Queries, Keys and Values matrices, as well as the output layers (in the case of Qwen, a simple perceptron working as a decoder).
--After poor initial results, I desided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). However, I personally suspect that tunning gated mechanisms worked as a pseudo-dropout mechanism? (token replication told me that the model was memorizing prompts. However, learning curves behaved well so...).
+- I used the Unsloth implementation of the model, 4B version.
+- I used 4-bit quantization.
+- LowRank was also obviously involved. I freezed all "hidden layers" but the Queries, Keys and Values matrices, as well as the output layers (in the case of Qwen, a simple perceptron working as a decoder).
+- After poor initial results, I desided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). However, I personally suspect that tunning gated mechanisms worked as a pseudo-dropout mechanism? (token replication told me that the model was memorizing prompts. However, learning curves behaved well so...).
 
 ***
 
