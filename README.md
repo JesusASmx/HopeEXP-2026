@@ -14,7 +14,7 @@ This repo contains the code for reproduce my results [at this competition.](http
   He did nothing but c'mon isn't he cute af (accurately fluffy) ??
 </div>
 
-[LINK TO MY PAPER (comming soon)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[LINK TO MY PAPER (comming soon)](https://scholar.google.com/citations?user=qFEylJkAAAAJ&hl=en)
 
 ***
 
