@@ -42,7 +42,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 ## INSTRUCTIONS FOR REPRODUCIBILITY:
 
 1. Get the data. (Contact the organizers).
-2. Initialize a virtual enviroment and install all packages at the requirements.txt version.
+2. Initialize a virtual enviroment and install all packages at requirements.txt (best python versions are 3.11.any).
 3. Run main.py, you will need private keys on a params.json file. This repo includes a template.
 4. Enjoy having your own version of the winning system.
 
