@@ -33,7 +33,7 @@ MOREOVER, multitasking was a blatant disaster: I whitnessed amused how Qwen 3.5 
 **For Qwen:**
 - I used the Unsloth implementation of the model, 4B version.
 - I used 4-bit quantization.
-- LowRank was also obviously involved. I freezed all "hidden layers" but the Queries, Keys and Values matrices, as well as the output layers (in the case of Qwen, a simple perceptron working as a decoder).
+- LowRank was also obviously involved. I freezed all "hidden layers" but the Queries, Keys and Values matrices, as well as the mere output layers (in the case of Qwen, a simple perceptron collocated after the MoE-based multiheadattention-decoder).
 - After poor initial results, I desided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). However, I personally suspect that tunning gated mechanisms worked as a pseudo-dropout mechanism? (token replication told me that the model was memorizing prompts. However, learning curves behaved well so...).
 
 ***
