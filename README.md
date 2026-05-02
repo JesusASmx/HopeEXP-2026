@@ -47,7 +47,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 4. Enjoy having your own version of the winning system.
 
    
-CAVEAT: Due hard disk constraints, I didn't saved the models locally and I forgot to include automatic savers. They can be manually added, very easily.
+CAVEAT: Due hard disk constraints, I didn't saved the models locally and I forgot to include automatic savers on the code. They can be manually added, very easily.
 
 DECLARATION: This repo was not vibecoded. No generative language model was used to write any snipet of it. However, considerable passages of it are adaptations from the follow tutorials:
 - Usloth tutorial: https://unsloth.ai/docs/models/qwen3.5/fine-tune
