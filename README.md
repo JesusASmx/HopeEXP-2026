@@ -19,7 +19,9 @@ This repo contains the code for reproduce my results [at this competition.](http
 ***
 
 ### What I did?
-My initial approach was **finetunning Qwen 3.5 (4B)**, using a carefully designed custom prompt, for all three tasks. However, although results on 2nd, 3rd, 4th and 5th task were good, the first one was very standard (a simple classification task) and 2019-model RoBERTa brought the best results. So I stuck on that. MOREOVER, multitasking was a blatant disaster: I whitnessed totally amused how Qwen 3.5 (4B) was unnable to surpass the 0.4 score thresshold on each task (we are still far from AGI).
+My initial approach was **finetunning Qwen 3.5 (4B)**, using a carefully designed custom prompt, for all three tasks. However, although results on 2nd, 3rd, 4th and 5th task were good (one different instance for each task), the first task was a very standard classification task, and a 2019-model RoBERTa brought by far the best results.
+
+MOREOVER, multitasking was a blatant disaster: I whitnessed amused how Qwen 3.5 (4B) shattered all the previous conceptions about multitasking on traditional models and small deep neural networks, and was unnable to surpass the 0.4 score thresshold on each task (we are still far from AGI).
 
 #### Tech details:
 **For RoBERTa:**
