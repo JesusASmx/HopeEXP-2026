@@ -52,7 +52,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 **DECLARATION**: This repo was not vibecoded. No generative language model was used to write any snipet of it. My participation here was merely for formative purposes, hence making *vibecoding* totally pointless. However, some passages of it are ~~glorified copypastes~~ adaptations from the follow tutorials:
 - Unsloth tutorial: https://unsloth.ai/docs/models/qwen3.5/fine-tune
 - Huggingface tutorial: https://huggingface.co/learn/llm-course/chapter3/3
-- The starting kit provided by the organizers of this shared task (very useful, thank you!)
+- The starting kit provided by the organizers of this shared task (very useful, thank you!), can be requested directly with them.
 
 ***
 
