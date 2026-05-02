@@ -57,7 +57,7 @@ DECLARATION: This repo was not vibecoded. No generative language model was used 
 ***
 
 <div align="center">
-  <img width="311" height="210" alt="image" src="https://github.com/user-attachments/assets/303e18e7-0682-4554-8759-cad8a4426b64" />
+  <img width="340" height="210" alt="image" src="https://github.com/user-attachments/assets/303e18e7-0682-4554-8759-cad8a4426b64" />
   Bro is angry cus he won't be 1st author.
 </div>
 
