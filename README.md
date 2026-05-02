@@ -49,7 +49,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
    
 **CAVEAT**: Due hard disk constraints, I didn't saved the models locally and I forgot to include automatic savers on the code. They can be manually added, very easily.
 
-**DECLARATION**: This repo was not vibecoded. No generative language model was used to write any snipet of it. My participation here was merely for formative purposes, making *vibecoding* totally pointless. However, some passages of it are ~~glorified copypastes~~ adaptations from the follow tutorials:
+**DECLARATION**: This repo was not vibecoded. No generative language model was used to write any snipet of it. My participation here was merely for formative purposes, hence making *vibecoding* totally pointless. However, some passages of it are ~~glorified copypastes~~ adaptations from the follow tutorials:
 - Unsloth tutorial: https://unsloth.ai/docs/models/qwen3.5/fine-tune
 - Huggingface tutorial: https://huggingface.co/learn/llm-course/chapter3/3
 - The starting kit provided by the organizers of this shared task (very useful, thank you!)
