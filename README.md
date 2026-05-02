@@ -45,3 +45,13 @@ My initial approach was **finetunning Qwen 3.5 (4B)**, using a carefully designe
 
    
 CAVEAT: Due hard disk constraints, I didn't saved the models locally and I forgot to include automatically savers.
+
+***
+
+<div align="center">
+  <img width="311" height="210" alt="image" src="https://github.com/user-attachments/assets/303e18e7-0682-4554-8759-cad8a4426b64" />
+  Bro is angry cus he won't be 1st author.
+</div>
+
+
+
