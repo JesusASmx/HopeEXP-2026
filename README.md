@@ -35,7 +35,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 - I used 4-bit quantization.
 - Lets play a game! Guess the Batch size! HINTS: A) Only 12g of VRAM, B) less than 3, more than 1, C) Not 16.
 - LowRank was also obviously involved. I freezed all "hidden layers" but the Queries, Keys and Values matrices, as well as the mere output layers (in the case of Qwen, a simple perceptron collocated after the MoE-based multiheadattention-decoder).
-- After poor initial results, I desided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). The enhancement of the experiments were dramatic. I personally suspect that the fact of tunning them worked as a pseudo-dropout mechanism? (token replication told me that the model was memorizing prompts. However, learning curves behaved well so...).
+- After poor initial results, I decided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). The enhancement of the experiments were dramatic. I personally suspect that the fact of tunning them worked as a pseudo-dropout mechanism? (token replication told me that the model was memorizing prompts. However, learning curves behaved well so...).
 
 ***
 
