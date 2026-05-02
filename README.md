@@ -4,7 +4,9 @@
 
 This repo contains the code for reproduce my results [at this competition.](https://www.codabench.org/competitions/13563/)
 
-I am pleased to announce that I obtained the **1st place** on this competition!!
+```
+🥇🥇 I am pleased to announce that I obtained the 1st PLACE on this competition!! 🥇🥇
+```
 
 
 [LINK TO MY PAPER](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
