@@ -32,6 +32,6 @@ My initial approach was **finetunning Qwen 3.5 (4B)**, using a carefully designe
 
 1. Get the data. (Contact the organizers).
 2. Initialize a virtual enviroment and install all packages at the requirements.txt version.
-3. Run main.py, you will need private keys on a params.json file.
+3. Run main.py, you will need private keys on a params.json file. This repo includes a template.
 4. Enjoy having your own version of the winning system.
 CAVEAT: Due hard disk constraints, I didn't saved the models locally and I forgot to include automatically savers.
