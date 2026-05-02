@@ -1,0 +1,13 @@
+{
+    "data_URL": "https://please/contact/the/organizers/4/the/data/:).html",
+    "llm_name": "unsloth/Qwen3.5-4B",
+    "roberta_model": "xlm-roberta-base",
+    "lora_modules": ["q_proj", "k_proj", "v_proj", "o_proj","gate_proj", "up_proj", "down_proj","lm_head"],
+
+    "inference_save": "./",
+    
+    "finetune_epochs_llm": 5,
+    "finetune_epochs_roberta": 5,
+    "final_model": "nn_weights_final.pth",
+    "hf_token": "hf_YoUrHfToKeN:)"
+}

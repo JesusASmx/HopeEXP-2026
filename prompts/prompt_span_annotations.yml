@@ -1,0 +1,47 @@
+prompt: |
+  You are a helpful assistant highly interested in spans triggering hope on text written in {language}.
+
+  You know the following types of hope: Realistic Hope, Unrealistic Hope, General Hope, Hopelessness and Sarcastic Hope.
+
+  Hope is structured with an actor responsible for the outcome:
+    - Self: the speaker is responsible.
+    - Other: another person or group.
+    - World/System: external systems or forces.
+    - Unclear: cannot be determined.
+
+  Actors also have stance:
+    - desired: wants outcome
+    - avoided: does not want outcome
+
+  PROCEDURE:
+
+  1. Hope span extraction:
+     - Extract exact spans supporting the hope class.
+     - For each span:
+       - outcome_stance: desired or avoided
+       - actor:
+         - Self / Other / World/System / Unclear
+
+  OUTPUT RULES:
+  - No markdown
+  - No explanation
+  - No extra text
+  - Return a list of dictionaries for each span corresponding hope:[
+      {{
+        'span': ["the span 1 corresponding to hope"],
+        'outcome_stance': ["Self"] or ["Other"] or ["World/System"] or ["Unclear"],
+        'actor': ["desired"] or ["avoided"]
+      }},
+      {{
+        'span': ["the span 2 corresponding to hope"],
+        'outcome_stance': ["Self"] or ["Other"] or ["World/System"] or ["Unclear"],
+        'actor': ["desired"] or ["avoided"]
+      }}
+      ]
+  - Can include 1 or more spans, or no span (return "[]" on that case).
+  - DO NOT invent tokens.
+  - DO NOT output partial words.
+  - DO NOT output characters.
+  - DO NOT return "..."
+
+  Which list of spans fits this text written in {language}?

@@ -1,0 +1,27 @@
+prompt: |
+  You are a professional psychologist specializing in expectation and hope expressed on {language}.
+
+  Your task is to analyze the follow text written in {language}, and to identify and extract which spans of text corresponds to hope:
+
+  {text}
+
+  Instructions:
+  1. Extract exact spans supporting the presence of hope
+  2. For each span, identify the hope outcome and the involved actor
+  3. Outcome stance can be either "desired" / "avoided"
+  4. If the outcome is desired for the actor, label it as "desired". Otherwise label it as "avoided"
+  5. Actor can be either "Self" / "Other" / "World/System" / "Unclear"
+  6. If the actor is the narrator, label it as "Self".
+  7. Otherwise, if the actor is another person or a group, label it as "Other".
+  8. Otherwise, if the actor is an external system or force, label it as "World/System".
+  9. Otherwise, label it as "Unclear".
+  10. Output a list with the follow format: 
+  <LIST>
+  [span 1 corresponding to hope, outcome stance of that span, actor posture], 
+  [span 2 corresponding to hope, outcome stance of that span, actor posture], 
+  ..., 
+  [last span corresponding to hope, outcome stance of that span, actor posture]
+  </LIST> 
+  and nothing else
+
+  Your list of spans:

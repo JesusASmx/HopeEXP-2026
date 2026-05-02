@@ -1,0 +1,15 @@
+prompt: |
+  You are a professional psychologist specializing in the underlying emotions expressed on {language}.
+
+  Your task is to analyze the follow text written in {language}, and predict the list of emotions present on it:
+
+  {text}
+
+  Instructions:
+  1. Allowed emotions to the list: anger, fear, joy, love, sadness, surprise, Nuetral/unclear
+  2. Multi-label allowed except Nuetral/unclear
+  3. If no emotion is detected, return Nuetral/unclear
+  4. Do not duplicate labels
+  5. Output a list written in the format <LIST>emotion_1, emotion_2, ..., emotion_last </LIST> and nothing else
+
+  Your list of emotions:
