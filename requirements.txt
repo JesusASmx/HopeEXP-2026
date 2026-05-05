@@ -131,7 +131,6 @@ transformers==5.7.0
 triton==3.6.0
 trl==0.24.0
 typeguard==4.5.1
-typer==0.24.1
 typer==0.25.0
 typing-inspection==0.4.2
 typing_extensions==4.15.0
