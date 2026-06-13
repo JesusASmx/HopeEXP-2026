@@ -9,17 +9,19 @@ This repo contains the code for reproduce my results [at this competition.](http
 ```
 
 <div align="center">
-  I want to thank PhD. Chipokles for this award.
-  <img width="200" height="190" alt="image" src="https://github.com/user-attachments/assets/0ad5770e-0bee-48ea-9aa8-55c0eec09fc4" />
+  I want to thank PhD. Chipokles for this award.<br>
+  
+  <img width="200" height="190" alt="image" src="https://github.com/user-attachments/assets/0ad5770e-0bee-48ea-9aa8-55c0eec09fc4" /> <br>
+  
   He did nothing but c'mon isn't he cute af (accurately fluffy) ??
 </div>
 
-[LINK TO MY PAPER (comming soon)](https://scholar.google.com/citations?user=qFEylJkAAAAJ&hl=en)
+[LINK TO MY PAPER (if accepted :'v)](https://scholar.google.com/citations?user=qFEylJkAAAAJ&hl=en)
 
 ***
 
 ### What I did?
-My initial approach was **finetunning Qwen 3.5 (4B)**, using a carefully designed custom prompt, for all three tasks. However, although results on 2nd, 3rd, 4th and 5th task were good (one different instance for each task), the first task was a very standard classification task, and a 2019-model RoBERTa brought by far the best results.
+My initial approach was **finetunning Qwen 3.5 (4B)**, using a carefully designed custom prompt, for all tasks. However, although results on 2nd, 3rd, 4th and 5th task were good (one different instance for each task), the first task was a very standard classification task, and a 2019-model RoBERTa brought by far the best results.
 
 MOREOVER, multitasking, an approach proven successful on previous shared tasks, was a blatant disaster: I whitnessed amused how Qwen 3.5 (4B) shattered all the previous conceptions about multitasking on traditional models and small deep neural networks, and was unnable to surpass the 0.4 score thresshold on each task (we are still far from AGI).
 
@@ -35,7 +37,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 - I used 4-bit quantization.
 - Lets play a game! Guess the Batch size! HINTS: A) Only 12g of VRAM, B) less than 3, more than 1, C) Not 16.
 - LowRank was also obviously involved. I freezed all "hidden layers" but the Queries, Keys and Values matrices, as well as the mere output layers (in the case of Qwen, a simple perceptron collocated after the MoE-based multiheadattention-decoder).
-- After poor initial results, I decided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). The enhancement was dramatic. I personally suspect that tunning them worked as a pseudo-dropout mechanism... token replication told me that the model was memorizing prompts. However, learning curves behaved well so... simulated dropout mechanisms will be for now *(I am boneless. However, the other day I broke two bones, hence I have at least two bones. Strong evidence suggest the existence of a third one)*.
+- After poor initial results, I decided to also include the gated mechanisms of the models. I ~~stole~~ obtained that idea from [this paper](https://arxiv.org/abs/2507.10996). The enhancement was dramatic. I personally suspect that tunning them worked as a pseudo-dropout mechanism... token replication told me that the model was memorizing prompts. However, learning curves behaved well so... simulated dropout mechanisms will be for now *(I am a boneless human. However, the other day I broke two bones, hence I have at least two bones. Strong evidence suggest the existence of a third one)*.
 
 ***
 
@@ -57,7 +59,7 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 ***
 
 <div align="center">
-  <img width="340" height="210" alt="image" src="https://github.com/user-attachments/assets/303e18e7-0682-4554-8759-cad8a4426b64" />
+  <img width="340" height="210" alt="image" src="https://github.com/user-attachments/assets/303e18e7-0682-4554-8759-cad8a4426b64" /><br>
   Bro is angry cus he won't be 1st author.
 </div>
 
