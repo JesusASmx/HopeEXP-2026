@@ -1,4 +1,4 @@
-from train import finetunning_llm, roberta
+from train import finetunning_llm, finetunning_roberta
 from generate_submissions import this_is_the_most_important_function
 import torch
 import json
@@ -7,7 +7,7 @@ if __name__ == "__main__":
 
 ########################################################## RoBERTa for your usual classification task.
         
-    RoBERTa_hope = roberta(
+    RoBERTa_hope = finetunning_roberta(
             data_path = "./data/HopeEXP_Train.jsonl",
             data_path_test = "./data/HopeEXP_Test_unlabeled.jsonl"
         )
