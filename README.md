@@ -8,15 +8,7 @@ This repo contains the code for reproduce my results [at this competition.](http
 🥇🥇 I am pleased to announce that I obtained the 1st PLACE on this competition!! 🥇🥇
 ```
 
-<div align="center">
-  I want to thank PhD. Chipokles for this award.<br>
-  
-  <img width="200" height="190" alt="image" src="https://github.com/user-attachments/assets/0ad5770e-0bee-48ea-9aa8-55c0eec09fc4" /> <br>
-  
-  He did nothing but c'mon isn't he cute af (accurately fluffy) ??
-</div>
-
-[LINK TO MY PAPER (if accepted :'v)](https://scholar.google.com/citations?user=qFEylJkAAAAJ&hl=en)
+[LINK TO MY PAPER (comming soon)](https://scholar.google.com/citations?user=qFEylJkAAAAJ&hl=en)
 
 ***
 
@@ -57,11 +49,3 @@ MOREOVER, multitasking, an approach proven successful on previous shared tasks, 
 - The starting kit provided by the organizers of this shared task (very useful, thank you!), can be requested directly with them.
 
 ***
-
-<div align="center">
-  <img width="340" height="210" alt="image" src="https://github.com/user-attachments/assets/303e18e7-0682-4554-8759-cad8a4426b64" /><br>
-  Bro is angry cus he won't be 1st author.
-</div>
-
-
-
